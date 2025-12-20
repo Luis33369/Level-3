@@ -31,38 +31,43 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 export const Navbar = () => {
   return (
     <>
-    <header className="relative">
-      <img src="/images/hero.png" alt="" className="w-full h-[720px] object-cover"/>
+      <header className="relative">
+        <img src="/images/hero.png" alt="" className="w-full h-200 object-cover" />
 
-      <nav className="absolute top-0 left-0  w-full flex justify-end gap-6 p-6">
-        <button className="bg-red-500 text-white rounded-full px-5 py-3 text-lg font-bold">Sign In</button>
-        <button className="bg-white text-gray-500 rounded-full px-5 py-3 text-lg font-bold">Sign Up</button>
-      </nav>
-      <div className="absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
-        <div className="flex items-center gap-2 text-2xl">
-        <SiDoordash className="text-white text-5xl "/>
-        <p className="font-times  text-2xl font-medium  tracking-widest">DOORDASH</p>
+        <nav className="absolute top-0 left-0  w-full flex justify-end gap-6 p-6">
+          <button className="bg-red-500 text-white rounded-full px-5 py-3 text-lg font-bold">Sign In</button>
+          <button className="bg-white text-gray-500 rounded-full px-5 py-3 text-lg font-bold">Sign Up</button>
+        </nav>
+        <div className="absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+          <div className="flex justify-center gap-2 text-2xl">
+            <SiDoordash className="text-white text-5xl" />
+            <p className="font-times  text-2xl font-medium  tracking-widest">DOORDASH</p>
+          </div>
+          <p className="font-bold text-4xl whitespace-nowrap ">$0 DELIVERY FEE ON FIRST ORDER</p>
+          <p className="flex justify-center text-xs font-bold">Other fees apply</p>
+          <div className="flex justify-center gap-2 p-2 bg-white rounded-full border border-gray-300 " >
+            <IoLocationOutline className="text-gray-500" />
+            <input type="text" placeholder="Enter delivery address" className="text-gray-500 bg-white w-64" />
+            <FaCircleArrowRight className="text-red-500" />
+
+          </div>
+          <div className="flex justify-center">
+            <button className="">Sign in for saved address</button>
+          </div>
+
+
         </div>
-        <p className="font-bold text-4xl whitespace-nowrap ">$0 DELIVERY FEE ON FIRST ORDER</p>
-        <p>Other fees apply</p>
-        <div className="flex items-center gap-2 rounded-full" >
-          <IoLocationOutline/>
-          <input type="text" placeholder="Enter delivery address" className=""/>
-          <FaCircleArrowRight/>
-        </div>
-        <button>Sign in for saved address</button>
-      </div>
 
 
 
-    </header>
+      </header>
     </>
   );
-  
+
 };
-    // <div className="static">
-    //   <div className="absolute flex justify-end gap-6">
-    //     <button className="bg-red-500 text-white rounded-full px-5 py-3">Sign In</button>
-    //     <button className="bg-white text-gray-500 rounded-full px-5 py-3">Sign Up</button>
-    //   </div>
-    // </div>
+// <div className="static">
+//   <div className="absolute flex justify-end gap-6">
+//     <button className="bg-red-500 text-white rounded-full px-5 py-3">Sign In</button>
+//     <button className="bg-white text-gray-500 rounded-full px-5 py-3">Sign Up</button>
+//   </div>
+// </div>
