@@ -53,7 +53,7 @@ export const Navbar = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="flex justify-center rounded-full bg-white  w-64 py-2 text-sm text-black font-bold items-center gap-2">
+            <div className="flex justify-center rounded-full bg-white  w-64 py-2 text-sm text-black font-bold items-center gap-1">
               <FaRegUser />
               <button className="">Sign in for saved address</button>
             </div>
@@ -76,6 +76,11 @@ export const Navbar = () => {
 // </div>
 //
 //
+
+
+
+
+
 
 
 
