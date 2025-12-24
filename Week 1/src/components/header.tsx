@@ -68,14 +68,6 @@ export const Navbar = () => {
   );
 
 };
-// <div className="static">
-//   <div className="absolute flex justify-end gap-6">
-//     <button className="bg-red-500 text-white rounded-full px-5 py-3">Sign In</button>
-//     <button className="bg-white text-gray-500 rounded-full px-5 py-3">Sign Up</button>
-//   </div>
-// </div>
-//
-//
 
 
 
