@@ -1,4 +1,3 @@
-
 ### Mapping over Lists Practice - Homework 
 - **List Rendering** – Render simple array of strings.  
 - **Team Directory** – Render list of users as profile cards.  
