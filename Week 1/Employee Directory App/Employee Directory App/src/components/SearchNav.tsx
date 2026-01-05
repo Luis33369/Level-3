@@ -185,7 +185,7 @@ export const NavBar = () => {
         <input className="border border-white rounded-md bg-white text-blue-400"
           placeholder=" Search an Employee" type="search"
           onChange={(e) => setSearch(e.target.value)} />
-        <button href="" className="hover:bg-gray-400 rounded-md bg-white text-blue-400" onClick={handleSearch} >Search</button>
+        <button className="hover:bg-gray-400 rounded-md bg-white text-blue-400" onClick={handleSearch} >Search</button>
       </nav>
 
       {FilteredEmp.length === 0 ? <p>No employees found with that name</p> : FilteredEmp.map(employee =>
