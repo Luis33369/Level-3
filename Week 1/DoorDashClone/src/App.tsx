@@ -3,7 +3,7 @@ import './App.css'
 // import { Body } from './components/body';
 import { Footer } from './components/Footer';
 import { HeaderWithLinks } from './components/Body';
-import { Navbar } from "./components/header";
+import { Navbar } from "./components/Header";
 import { FindingLinks } from "./components/Body";
 import { FindingLinks2 } from "./components/Body";
 import { GroceriesBackground } from './components/Groceries';
