@@ -16,12 +16,14 @@ interface FindingLinks {
   image: string;
   link: string;
   content?: string;
+  extraParagraph?: string;
 }
 interface FindingLinks2 {
   title: string;
   paragraph: string;
   image: string;
   link: string;
+  content?: string;
 }
 
 
