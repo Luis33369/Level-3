@@ -1,6 +1,6 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import { Card } from './components/ProductCard';
+// import { Card } from './components/ProductCard';
 import { Render } from './components/RenderCards';
 
 function App() {

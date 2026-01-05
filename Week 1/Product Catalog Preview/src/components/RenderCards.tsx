@@ -1,8 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Card } from './ProductCard';
 
 export const Render = () => {
-  const [currency, setCurrency] = useState("USD");
+  // const [currency, setCurrency] = useState("USD");
 
   const products = [
     { id: 1, name: "Wireless Headphones", image: "https://picsum.photos/300/300?random=1", rate: 4.5, price: 79.99 },
