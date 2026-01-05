@@ -22,10 +22,17 @@ function App() {
         <HeaderWithLinks img='https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg' title="Get the best DoorDash experience" paragraph="Experience the best your neighborhood has to offer, all in one app." link="ttps://www.doordash.com/" link2="Get the app" />
       </div>
 
-      <FindingLinks title='Everything you crave, delivered.' paragraph="Your favorite local restaurants" content="Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you' ve been meaning to try." image="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png" link="Find restaurants" />
-      <FindingLinks2 title='DashPass is delivery for less' paragraph="Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it' s free for 30 days." link="Get DashPass" image="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png" />
+      <FindingLinks title='Everything you crave, delivered.'
+        paragraph="Your favorite local restaurants"
+        content="Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you' ve been meaning to try."
+        image="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png"
+        link="Find restaurants" />
+      <FindingLinks2 title='DashPass is delivery for less'
+        paragraph="Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it' s free for 30 days."
+        link="Get DashPass"
+        image="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png" />
       <GroceriesBackground title="Get grocery and convenience store essentials" content="Grocery delivery, exactly how you want it." paragraph="Shop from home and fill your cart with fresh produce, frozen entrees, deli delights and more." link="Shop Groceries" />
-      <FindingLinks title="Convenience stores at your doorstep" paragraph='Stock up on snacks, household essentials, candy, or vitamins — all delivered in under an hour.' content='' link='Shop Now' image='https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/convenience_desktop.png' link="Shop Alcohol" extraParagraph="*Must be 21+. Enjoy responsibly." />
+      <FindingLinks title="Convenience stores at your doorstep" paragraph='Stock up on snacks, household essentials, candy, or vitamins — all delivered in under an hour.' image='https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/convenience_desktop.png' link="Shop Alcohol" extraParagraph="*Must be 21+. Enjoy responsibly." />
 
       <div className='bg-[#FEF1EE] '>
         <h2 className='mx-auto text-center text-4xl font-medium flex-wrap w-120 p-10'>Helping you with to-dos and gifting</h2>
