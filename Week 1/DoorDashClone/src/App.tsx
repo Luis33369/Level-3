@@ -1,14 +1,13 @@
-// import { useState } from 'react'
 import './App.css'
 
 // import { Body } from './components/body';
-import { Footer } from './components/footer';
-import { HeaderWithLinks } from './components/body';
+import { Footer } from './components/Footer';
+import { HeaderWithLinks } from './components/Body';
 import { Navbar } from "./components/header";
-import { FindingLinks } from "./components/body";
-import { FindingLinks2 } from "./components/body";
-import { GroceriesBackground } from './components/groceries';
-import { GridChoices } from './components/gridChoices';
+import { FindingLinks } from "./components/Body";
+import { FindingLinks2 } from "./components/Body";
+import { GroceriesBackground } from './components/Groceries';
+import { GridChoices } from './components/GridChoices';
 
 
 function App() {
