@@ -15,7 +15,7 @@ interface FindingLinks {
   paragraph: string;
   image: string;
   link: string;
-  content: string;
+  content?: string;
 }
 interface FindingLinks2 {
   title: string;
